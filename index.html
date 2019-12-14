@@ -2,44 +2,35 @@
 <html>
     <head>
         <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <style>
     body {
         text-align: center;
     }
     li {
-        text-align: left;
+        column-span: none;
+    }
+    img {
+        border-radius: 50%;
     }
     </style>
     </head>
-    <body>
+    <body style="background-color:lightslategray;">
         <header>
-            <h1>Student Bio</h1>
+           <div class="topnav">
+                <a class="active" href="mailto:nickpoly48@gmail.com?Subject=Hello%20again" target="_top">Email</a>
+                <a href="https://github.com/nickpoly48/Student-Bio" target="_blank">Github</a>
+                <a href="#" target="_blank">Portfolio</a>
+           </div> 
         </header>
 
         <div class="container">
 
             <section id="main-bio">
 
-                <h2>Nicholas Policastro</h2>
+                <img src="nick1.jpeg" height="300px"  alt="Nicholas Policastro" id="bio-image">
 
-                <img src="nick1.jpeg" height="200px" alt="Nicholas Policastro" id="bio-image">
-
-                <p>I started my technology career when I joined the Army National Guard in 2008. From that experience I have transitioned into doing contract work in Military Installations for a highly efficient and well respected Network Cable and Install Team.</p>
-            </section>
-
-            <section>
-                <h2>Contact Info</h2>
-                <ul>
-                    <li>
-                        <strong>Email:</strong> <a href="#" target="_blank">nickpoly48@gmail.com</a>
-                    </li>
-                    <li>
-                        <strong>Github:</strong> <a href="#" target="_blank">https://github.com/nickpoly48/Student-Bio</a>
-                    </li>
-                    <li>
-                        <strong>Portfolio:</strong> <a href="#" target="_blank">Coming Soon</a>
-                    </li>
-                </ul>
+                <p>I started my technology career when I joined the Army National Guard in 2008. <br>From that experience I have transitioned into doing contract work in Military Installations for a highly efficient and well respected Network Cable and Install Team.</p>
             </section>
         </div>
     </body>

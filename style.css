@@ -1,0 +1,17 @@
+.topnav {
+    padding: 15px 15px;
+}
+
+.topnav a {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: deepskyblue;
+}
+
+.topnav a:active {
+    background-color: aqua;
+}
